@@ -1,0 +1,20 @@
+{
+    "model_name": "CNN Facial Emotion Recognition",
+    "image_size": [
+        96,
+        96
+    ],
+    "color_mode": "RGB",
+    "normalization": "pixel_value_divided_by_255",
+    "number_of_classes": 7,
+    "class_names": [
+        "angry",
+        "disgust",
+        "fear",
+        "happy",
+        "neutral",
+        "sad",
+        "surprise"
+    ],
+    "batch_size": 32
+}
